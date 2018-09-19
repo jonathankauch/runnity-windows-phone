@@ -1,0 +1,49 @@
+﻿<Page
+    x:Class="RunIt.View.CustomCommentView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RunIt.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock
+            HorizontalAlignment="Left"
+            Margin="46,116,0,0"
+            Text="Comment"
+            VerticalAlignment="Top"
+            FontSize="21.333"/>
+        <TextBox
+            x:Name="commentBox"
+            Margin="0,147,0,0"
+            VerticalAlignment="Top"
+            Width="309"/>
+
+        <Button x:ConnectionId='1'
+            x:Name="editCmtBtn"
+            Content="Edit"
+            HorizontalAlignment="Left"
+            Margin="134,229,0,0"
+            VerticalAlignment="Top"
+                                         />
+        <Button x:ConnectionId='2'
+            x:Name="delCmtBtn"
+            Content="Delete"
+            HorizontalAlignment="Left"
+            Margin="134,300,0,0"
+            VerticalAlignment="Top"
+                                           />
+
+        <Button x:ConnectionId='3'
+            x:Name="backBtn"
+            Content="Back"
+            HorizontalAlignment="Left"
+            Margin="257,21,0,0"
+            VerticalAlignment="Top"
+                               />
+
+    </Grid>
+</Page>
+

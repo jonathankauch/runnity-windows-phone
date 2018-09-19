@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="1958c6da-1737-418c-b6ca-f049a9ffded6" version="1.0" primary="true">
+		<Qualifiers>
+			<Language>EN-US, FR-FR</Language>
+			<Scale>240</Scale>
+			<Theme>LIGHT, DARK</Theme>
+		</Qualifiers>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/App.xbf">
+				<Candidate type="Path">
+					<Value>App.xbf</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="RunIt.xr.xml" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/RunIt.xr.xml">
+				<Candidate type="Path">
+					<Value>RunIt.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="DarkGray.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/DarkGray.png">
+					<Candidate type="Path">
+						<Value>Assets\DarkGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="HubBackground.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/HubBackground.png">
+					<Candidate qualifiers="Theme-LIGHT" isDefault="true" type="Path">
+						<Value>Assets\HubBackground.theme-light.png</Value>
+					</Candidate>
+					<Candidate qualifiers="Theme-DARK" isDefault="true" type="Path">
+						<Value>Assets\HubBackground.theme-dark.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LightGray.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/LightGray.png">
+					<Candidate type="Path">
+						<Value>Assets\LightGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="login_screen.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/login_screen.png">
+					<Candidate type="Path">
+						<Value>Assets\login_screen.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Logo.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MediumGray.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/MediumGray.png">
+					<Candidate type="Path">
+						<Value>Assets\MediumGray.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SmallLogo.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/SmallLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SmallLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="SplashScreen.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/SplashScreen.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\SplashScreen.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Square71x71Logo.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/Square71x71Logo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\Square71x71Logo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="StoreLogo.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/StoreLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\StoreLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="WideLogo.png" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Assets/WideLogo.png">
+					<Candidate qualifiers="Scale-240" isDefault="true" type="Path">
+						<Value>Assets\WideLogo.scale-240.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Common">
+				<NamedResource name="ReadMe.txt" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Common/ReadMe.txt">
+					<Candidate type="Path">
+						<Value>Common\ReadMe.txt</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="DataModel">
+				<NamedResource name="SampleData.json" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/DataModel/SampleData.json">
+					<Candidate type="Path">
+						<Value>DataModel\SampleData.json</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Fonts">
+				<NamedResource name="Roboto-Black.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Black.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Black.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-BlackItalic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-BlackItalic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-BlackItalic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Bold.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Bold.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Bold.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-BoldItalic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-BoldItalic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-BoldItalic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Italic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Italic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Italic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Light.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Light.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Light.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-LightItalic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-LightItalic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-LightItalic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Medium.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Medium.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Medium.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-MediumItalic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-MediumItalic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-MediumItalic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Regular.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Regular.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Regular.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-Thin.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-Thin.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-Thin.ttf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="Roboto-ThinItalic.ttf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/Fonts/Roboto-ThinItalic.ttf">
+					<Candidate type="Path">
+						<Value>Fonts\Roboto-ThinItalic.ttf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="View">
+				<NamedResource name="AddEventView.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/AddEventView.xbf">
+					<Candidate type="Path">
+						<Value>View\AddEventView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="ForgotPasswordView.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/ForgotPasswordView.xbf">
+					<Candidate type="Path">
+						<Value>View\ForgotPasswordView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="LoginView.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/LoginView.xbf">
+					<Candidate type="Path">
+						<Value>View\LoginView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="MainView.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/MainView.xbf">
+					<Candidate type="Path">
+						<Value>View\MainView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RegisterRun.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/RegisterRun.xbf">
+					<Candidate type="Path">
+						<Value>View\RegisterRun.xbf</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="RegisterView.xbf" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Files/View/RegisterView.xbf">
+					<Candidate type="Path">
+						<Value>View\RegisterView.xbf</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Microsoft.Practices.ServiceLocation.Properties.Resources">
+			<NamedResource name="ActivateAllExceptionMessage" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Microsoft.Practices.ServiceLocation.Properties.Resources/ActivateAllExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Activation error occurred while trying to get all instances of type {0}</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ActivationExceptionMessage" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Microsoft.Practices.ServiceLocation.Properties.Resources/ActivationExceptionMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>Activation error occurred while trying to get instance of type {0}, key "{1}"</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ServiceLocationProviderNotSetMessage" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Microsoft.Practices.ServiceLocation.Properties.Resources/ServiceLocationProviderNotSetMessage">
+				<Candidate qualifiers="Language-EN-US" isDefault="true" type="String">
+					<Value>ServiceLocationProvider must be set.</Value>
+				</Candidate>
+			</NamedResource>
+		</ResourceMapSubtree>
+		<ResourceMapSubtree name="Resources">
+			<NamedResource name="HubSection1" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/HubSection1">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>SECTION 1</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection2" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/HubSection2">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>SECTION 2</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection3" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/HubSection3">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>SECTION 3</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection4" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/HubSection4">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>SECTION 4</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="HubSection5" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/HubSection5">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>SECTION 5</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="NavigationFailedExceptionMessage" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/NavigationFailedExceptionMessage">
+				<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+					<Value>Échec de la navigation.</Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Header">
+				<NamedResource name="Text" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/Header/Text">
+					<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+						<Value>nom de l'application</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Hub">
+				<NamedResource name="Header" uri="ms-resource://1958c6da-1737-418c-b6ca-f049a9ffded6/Resources/Hub/Header">
+					<Candidate qualifiers="Language-FR-FR" isDefault="true" type="String">
+						<Value>nom de l'application</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

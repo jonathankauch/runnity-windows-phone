@@ -1,0 +1,58 @@
+﻿<Page
+    x:Class="RunIt.View.AddFriendsView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RunIt.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:drawerLayout="using:DrawerLayout"  
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <TextBlock
+            HorizontalAlignment="Center"
+            Margin="0,80,0,0"
+            TextWrapping="Wrap"
+            FontSize="25"
+            Text="Add Friends" 
+            VerticalAlignment="Top"/>
+
+        <TextBox
+            Margin="0,187,0,0"
+            VerticalAlignment="Top"
+            Width="309"/>
+        <TextBlock
+            x:Name="userBox"
+            HorizontalAlignment="Left"
+            Margin="46,156,0,0"
+            Text="User ID"
+            VerticalAlignment="Top"
+            FontSize="21.333"/>
+
+        <Button x:ConnectionId='1'
+            x:Name="sendInvitation"
+            Content="Send invitation"
+            HorizontalAlignment="Left"
+            Margin="134,259,0,0"
+            VerticalAlignment="Top"
+                                       />
+        <Button x:ConnectionId='2'
+            x:Name="backBtn"
+            Content="Back"
+            HorizontalAlignment="Left"
+            Margin="257,21,0,0"
+            VerticalAlignment="Top"
+                                  />
+
+        <TextBlock
+            x:Name="hMsg"
+            HorizontalAlignment="Left"
+            Margin="46,80,0,0"
+            Text=""
+            VerticalAlignment="Top"
+            FontSize="21.333"/>
+
+    </Grid>
+</Page>
+

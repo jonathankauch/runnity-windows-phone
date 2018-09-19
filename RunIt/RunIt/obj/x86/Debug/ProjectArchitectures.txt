@@ -1,0 +1,1 @@
+C:\Users\jp\Documents\Visual Studio 2015\Projects\WindowsPhone\RunIt\RunIt\RunIt.csproj;x86

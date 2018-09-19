@@ -1,0 +1,89 @@
+﻿<Page
+    x:Class="RunIt.View.GroupView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:RunIt.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:drawerLayout="using:DrawerLayout"  
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <!-- Title Bar -->
+        <Grid x:Name="TitleBar" Grid.Row ="0" Height="60">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Image x:ConnectionId='5' Margin="5"  x:Name="DrawerIcon"  Grid.Column="0" Source="/Assets/drawer_icon.png" HorizontalAlignment="Left"                            />
+            <TextBlock Grid.Column="1" Text="RunIT" Foreground="White" VerticalAlignment="Center" FontSize="18"/>
+        </Grid>
+
+        <drawerLayout:DrawerLayout Grid.Row="1"  x:Name="DrawerLayout">
+            <Grid x:Name="MainFragment">
+                <TextBlock
+                    x:Name="NewsBlock"
+                    HorizontalAlignment="Center"
+                    Margin="0,20,0,0"
+                    TextWrapping="Wrap"
+                    FontSize="25"
+                    Text="Groups" 
+                    VerticalAlignment="Top"/>
+
+                <Grid>
+
+                    <ListView x:ConnectionId='4' x:Name="ListViewGroups" 
+                              Margin="0,100,0,0" 
+                                                                                >
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock 
+                                Text="{Binding}" 
+                                Margin="30" 
+                                HorizontalAlignment="Left" 
+                                VerticalAlignment="Center" 
+                                FontSize="18" Foreground="white" />
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                </Grid>
+
+            </Grid>
+
+            <Grid x:Name="ListFragment" Background="#F4F4F4">
+
+                <ListView x:ConnectionId='3' x:Name="ListMenuItems"                                    >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <TextBlock Text="{Binding}" Margin="30" HorizontalAlignment="Left" VerticalAlignment="Center" FontSize="18" Foreground="Black" />
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+
+            </Grid>
+        </drawerLayout:DrawerLayout>
+
+        <Button x:ConnectionId='1' x:Name="BackBtn" Content="Back"
+                HorizontalAlignment="Right"
+                Margin="0,0,15,0" 
+                Grid.Row="1" 
+                                   
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.893,0.189"/>
+        <Button x:ConnectionId='2' x:Name="AddBtn" Content="Add Group"
+                HorizontalAlignment="Right"
+                Margin="0,70,15,0" 
+                Grid.Row="1"
+                                  
+                VerticalAlignment="Top" 
+                RenderTransformOrigin="0.893,0.189"/>
+
+    </Grid>
+</Page>
+

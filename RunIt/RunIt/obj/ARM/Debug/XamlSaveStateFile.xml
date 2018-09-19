@@ -1,0 +1,20 @@
+<XamlCompilerSaveState>
+  <ReferenceAssemblyList>
+    <LocalAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\runit\obj\arm\debug\intermediatexaml\runit.exe" HashGuid="455749fe-6eb8-75f7-c038-875b49033f1a" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\drawerlayout.1.0.3\lib\drawerlayout.dll" HashGuid="14b8ddfb-c815-eaba-1c88-4959aa99a4e8" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\flurl.2.3.0\lib\portable40-net40+sl5+win8+wp8+wpa81\flurl.dll" HashGuid="121ea736-1481-e65c-c4cd-5b1541b885a9" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\flurl.http.1.1.2\lib\portable40-net45+sl5+win8+wp8+wpa81\flurl.http.dll" HashGuid="9250c288-ebb0-975c-7966-332d8bc988e7" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.dll" HashGuid="00d789b5-4004-069c-47a3-85602f81a196" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.extras.dll" HashGuid="36f75486-c611-869d-0f3b-f77b4baca7ec" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\mvvmlightlibs.5.3.0.0\lib\wpa81\galasoft.mvvmlight.platform.dll" HashGuid="33adc14f-1699-89db-fb87-66d3f3fc4dfe" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\commonservicelocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\microsoft.practices.servicelocation.dll" HashGuid="89de7f80-26d8-a17c-5ad9-b855f81ea5b2" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.dll" HashGuid="3a1beea5-1547-d5c6-af32-3b5c761c2a6a" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\microsoft.bcl.async.1.0.168\lib\wpa81\microsoft.threading.tasks.extensions.dll" HashGuid="79a01987-c06c-c9d7-37eb-629809787680" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\newtonsoft.json.9.0.1\lib\portable-net45+wp80+win8+wpa81\newtonsoft.json.dll" HashGuid="424e6aa8-ba94-c678-e707-af9fe9838e1a" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\pclstorage.1.0.2\lib\portable-win8+wpa81\pclstorage.abstractions.dll" HashGuid="736550c0-daf7-fc43-5e2e-a9023a3ecf57" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\pclstorage.1.0.2\lib\portable-win8+wpa81\pclstorage.dll" HashGuid="b3c72855-4fce-2ada-bc0f-5135882cc5d5" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.extensions.dll" HashGuid="794366f8-cc6d-f0fa-3d07-33b45136e193" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\microsoft.net.http.2.2.29\lib\wpa81\system.net.http.primitives.dll" HashGuid="7b71418d-e056-7613-c839-85fb8f6472a6" />
+    <ReferenceAssembly PathName="c:\users\jp\documents\visual studio 2015\projects\windowsphone\runit\packages\winrtxamltoolkit.windowsphone.1.8.1.0\lib\wpa\winrtxamltoolkit.dll" HashGuid="221e17c6-64f2-d53e-b7b5-145a2dbe921c" />
+  </ReferenceAssemblyList>
+</XamlCompilerSaveState>
